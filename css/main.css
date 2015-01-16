@@ -2104,7 +2104,7 @@ body#our-food h1 {
 	list-style: none;
 	margin: 5px 0;
 	font-size: 12px;
-	line-height: 18px;
+	line-height: 32px;
 }
 .menu-section ul li .price {
 	float: right;
@@ -2121,6 +2121,7 @@ body#our-food h1 {
 	display: block;
 	font-size: 8px;
 	margin: 0 55px 0 10px;
+	line-height: 18px;
 }
 .menu-section ul li .number {
 	font-weight: bold;
