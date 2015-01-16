@@ -20,7 +20,8 @@
       map = {
         "#ourfood" : "#our-food",
         "#aboutus" : "#about",
-        "#contactus" : "#contact"
+        "#contactus" : "#contact",
+        "#familylocations" : "#family-locations"
       };
 
     return map[hash] || hash;
@@ -175,7 +176,7 @@
   }
 
   setTimeout(function() {
-    $("a[data-hash='" + currentHash + "'].smoothscroll").click();          
+    smoothScroll(currentHash);
   }, 200);
 
 
